@@ -26,7 +26,7 @@ tic-tac-toe/
 ├── index.html       # Main HTML with score tracking & modal
 ├── style.css        # Modern glassmorphism styling + animations
 ├── script.js        # Complete game logic with win detection
-├── README.md        # Project documentation
+└── README.md        # Project documentation
 ```
 
 ## 🎮 How to Play
