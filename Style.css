@@ -624,4 +624,105 @@ body {
         gap: 8px;
         padding: 12px;
     }
+   
+   .cell-content {
+        font-size: 2.2rem;
+    }
+    
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .modal-content {
+        padding: 30px 20px;
+    }
+    
+    .modal-content h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .title {
+        font-size: 1.8rem;
+    }
+    
+    .score-board {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+    
+    .score-card {
+        padding: 10px 5px;
+    }
+    
+    .score-icon {
+        font-size: 1.3rem;
+    }
+    
+    .score-value {
+        font-size: 1.3rem;
+    }
+    
+    .player-name {
+        font-size: 0.65rem;
+    }
+    
+    .board {
+        gap: 6px;
+        padding: 10px;
+    }
+    
+    .cell-content {
+        font-size: 1.8rem;
+    }
+    
+    .controls {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 580px;
+    }
+    
+    .title {
+        font-size: 3.5rem;
+    }
+    
+    .cell-content {
+        font-size: 3.5rem;
+    }
+}
+
+/* ========================================
+   Accessibility
+======================================== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+@media (prefers-contrast: high) {
+    .cell {
+        border-width: 3px;
+    }
+    
+    .score-card {
+        border-width: 2px;
+    }
+}''',
     
