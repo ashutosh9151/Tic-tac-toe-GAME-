@@ -27,7 +27,6 @@ tic-tac-toe/
 ├── style.css        # Modern glassmorphism styling + animations
 ├── script.js        # Complete game logic with win detection
 ├── README.md        # Project documentation
-└── .gitignore       # Git ignore rules
 ```
 
 ## 🎮 How to Play
