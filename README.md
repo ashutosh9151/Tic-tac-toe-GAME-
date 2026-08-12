@@ -82,8 +82,7 @@ tic-tac-toe/
 ├── index.html      # Main page structure
 ├── style.css       # Beautiful dark UI + animations
 ├── script.js       # Complete game logic
-├── README.md       # This file
-└── .gitignore      # Ignores OS/editor files
+└── README.md       # This file
 ```
 
 ---
